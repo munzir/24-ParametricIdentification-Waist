@@ -11,7 +11,7 @@ Code to determine phi for the waist
 Code to determine actual beta parameters from hardware data
 
 ## [phiData](https://github.gatech.edu/WholeBodyControlAttempt1/24-ParametricIdentification-Waist/tree/master/phiData)
-Directory containing getPhiWaistDynamics output data
+Directory containing getPhiWaistDynamics output data. Primarily, phibeta-RHS.txt lists differences between [phibeta] and [Mddq + Cg] in the third column shown in the file. These differences should be small (~10e-5).
 
 ## [simInData](https://github.gatech.edu/WholeBodyControlAttempt1/24-ParametricIdentification-Waist/tree/master/simInData)
 Directory containing simulation input data (poses)
