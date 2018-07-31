@@ -7,8 +7,14 @@ Code to simulate waist sinusoidal trajectory, iterate through poses and collect 
 ## [24-b: Determine Waist Phi](https://github.gatech.edu/WholeBodyControlAttempt1/24b-GetWaistPhi.git)
 Code to determine phi for the waist
 
-## [phiData](https://github.gatech.edu/WholeBodyControlAttempt1/24-ParametricIdentification-Waist/tree/master/phiData)
-Directory containing getPhiWaistDynamics output data
+## [24-c: Converge to Beta Parameters](https://github.gatech.edu/WholeBodyControlAttempt1/24c-ConvergeWaistBeta.git)
+Code to determine actual beta parameters from hardware data
 
-## [simData](https://github.gatech.edu/WholeBodyControlAttempt1/24-ParametricIdentification-Waist/tree/master/simData)
-Directory containing simulation output data
+## [phiData](https://github.gatech.edu/WholeBodyControlAttempt1/24-ParametricIdentification-Waist/tree/master/phiData)
+Directory containing getPhiWaistDynamics output data. Primarily, phibeta-RHS.txt lists differences between [phibeta] and [Mddq + Cg] in the third column shown in the file. These differences should be small (~10e-5).
+
+## [simInData](https://github.gatech.edu/WholeBodyControlAttempt1/24-ParametricIdentification-Waist/tree/master/simInData)
+Directory containing simulation input data (poses)
+
+## [simOutData](https://github.gatech.edu/WholeBodyControlAttempt1/24-ParametricIdentification-Waist/tree/master/simOutData)
+Directory containing simulation output data (q, dq, ddq, M, Cg, calculated torque)
