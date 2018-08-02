@@ -19,6 +19,7 @@ ofile = open(ofilename, "w")
 
 data = infile.read()
 
+#creates at array "lines" where each element is one line of the text file
 lines = data.splitlines()
 
 i = 0
